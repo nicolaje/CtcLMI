@@ -11,11 +11,11 @@ This repository contains the source code of :
 
 The contractor relies on :
 
-- the [IBEX](http://ibex-lib.org/) library for interval computations an constraints processing. It has been developped with IBEX 2.1.5, and might require some adjustments to work with the latest version of IBEX (particularly for specifying the dimension in the constructor).
+- the [IBEX](http://ibex-lib.org/) library for interval computations and constraints processing. It has been developped with IBEX 2.1.5, and might require some adjustments to work with the latest version of IBEX (particularly for specifying the dimension in the constructor).
 - the [SDPA](http://sdpa.sourceforge.net/) library as an SDP solver
 
 ### Setup
 
 This project assumes the IBEX, SOPLEX, SDPA, MUMPS, PORD, MPISEQ, BLAS libraries are available respectively in the ibex-dev/lib, soplex-1.7.2/lib, sdpa/lib, sdpa/share/sdpa/mumps/build/lib/, sdpa/share/sdpa/mumps/build/lib/, sdpa/share/sdpa/mumps/build/libseq/, sdpa/share/sdpa/blas folders. Check the CMakeLists.txt file for additional information.
 
-The project has been developped in a Linux environment and might require modification (especially regarding building SDPA) to work on other platforms.
+The project has been developped in a Linux environment and might require some modifications (especially regarding building SDPA, although other solvers can be used) to work on other platforms.
